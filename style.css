@@ -1,0 +1,242 @@
+html{
+	overflow-x: hidden;
+}
+body{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+	overflow-x: hidden;
+}
+a{
+	color: #007aff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+p{
+	line-height: 1.5;
+}
+.body-section{
+	border-top: 1px solid #ddd;
+}
+.body-section-last{
+	padding: 60px 0;
+}
+.container{
+	position: relative;
+	margin: auto;
+	max-width: 1024px;
+	padding: 40px 0;
+	text-align: center;
+}
+header .container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+header a{
+	color: #333;
+}
+#app-icon{
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+	background: #fff url(icons/deepin_logo.png) no-repeat;
+	border-radius: 17px;
+	margin: 0 0 10px;
+}
+.container h1{
+	font-size: 46px;
+	margin: 0 0 10px;
+	padding: 0;
+	line-height: 1;
+	letter-spacing: -1px;
+	font-weight: 300;
+}
+.container h2{
+	font-size: 44px;
+	font-weight: 300;
+	margin: 0 0 20px;
+	padding: 0;
+	letter-spacing: -1px;
+	line-height: 1.1;
+}
+.container h3{
+	color: #666;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 0;
+	padding-top: 0;
+	line-height: 1.2;
+}
+.container header{
+	padding: 0 20px;
+	text-shadow: 0 1px #fff;
+}
+.container p{
+	margin: 0 auto 20px;
+	padding: 0;
+	line-height: 1.5;
+	max-width: 45em;
+}
+.available-button{
+	font-size: 15px;
+	color: #007aff;
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: none;
+	padding: 8px 20px;
+	border-radius: 4px;
+	border: 1px solid #007aff;
+	-webkit-transition: background-color .3s;
+	-moz-transition: background-color .3s;
+	transition: background-color .3s;
+}
+.available-button:hover{
+	text-decoration: underline;
+}
+.screenshots-container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.screenshot{
+	background-color: #fff;
+	border: 1px solid #999;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1);
+	border-radius: 2px;
+	margin: 0 -1px;
+}
+#iphone-screenshots-container{
+	text-align: center;
+	letter-spacing: 20px;
+}
+#iphone-screenshots-container div{
+	display: inline-block;
+	width: 320px;
+	height: 460px;
+	background-repeat: no-repeat;
+	vertical-align: top;
+}
+#ipad-container{
+	display: none;
+}
+#web-1-screenshot{
+	display: none;
+}
+.cols{
+	margin: 20px 20px 0;
+}
+.col{
+	text-align: left;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+footer{
+	font-size: 13px;
+	text-align: center;
+	padding: 20px;
+	color: #666;
+	background-color: #fafafa;
+	border-top: 1px solid #ccc;
+}
+@media all and (min-height: 481px){
+	header .container{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.screenshots-container{
+		margin-bottom: 60px;
+	}
+	footer{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+@media all and (min-height: 641px){
+	header .container{
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+}
+@media all and (min-width: 640px){
+	.body-section-last{
+		padding: 120px 0;
+	}
+	#ipad-container{
+		display: block;
+	}
+	#ipad-screenshot-container{
+		text-align: center;
+	}
+	#ipad-screenshot{
+		
+	}
+	#web-screenshot-container{
+		margin-left: 20px;
+	}
+	#web-1-screenshot{
+		display: inline-block;
+		margin: 0px 0 30px;
+	}
+	#web-2-screenshot{
+		display: none;
+	}
+	.cols{
+		margin-top: 40px;
+		text-align: center;
+	}
+	.col{
+		vertical-align: top;
+		display: inline-block;
+		text-align: left;
+	}
+	.cols .col{
+		width: 45%;
+		margin: 0 2%;
+	}
+}
+@media all and (min-width: 1024px){
+	#ipad-screenshot-container{
+		margin-left: 0;
+	}
+	#web-screenshot-container{
+		margin-left: 0;
+		position: relative;
+		text-align: left;
+	}
+	#web-1-screenshot{
+		margin: 20px 0 0;
+	}
+	#web-2-screenshot{
+		position: absolute;
+		display: inline-block;
+		top: 0;
+		right: 0;
+	}
+	.cols .col{
+		width: 28%;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+
+	#app-icon{
+		background-size: 72px 72px;
+		background-image: url(icons/app-icon@2x.png);
+	}
+}
+
+@-ms-viewport{
+	width: device-width;
+	zoom: 1.0;
+}
+
+@viewport{
+	width: device-width;
+	zoom: 1.0;
+}
