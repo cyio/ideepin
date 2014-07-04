@@ -2,7 +2,7 @@ html{
 	overflow-x: hidden;
 }
 body{
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Microsoft Yahei","WenQuanYi Micro Hei", "Arial", HELVETICA;
 	font-size: 16px;
 	color: #333;
 	margin: 0;
@@ -38,9 +38,7 @@ header .container{
 	padding-left: 20px;
 	padding-right: 20px;
 }
-header a{
-	color: #333;
-}
+
 #app-icon{
 	display: inline-block;
 	width: 232px;
