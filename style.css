@@ -21,6 +21,10 @@ a:hover{
 p{
 	line-height: 1.5;
 }
+.body-section-software{
+	background-color: #363738;
+	color:white;
+}
 .body-section{
 	border-top: 1px solid #ddd;
 }
@@ -83,7 +87,6 @@ header .container{
 	color: #999;
 }
 .available-button{
-	font-size: 15px;
 	color: #007aff;
 	display: inline-block;
 	text-decoration: none;
