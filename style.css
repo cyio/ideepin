@@ -98,7 +98,9 @@ header a{
 	transition: background-color .3s;
 }
 .available-button:hover{
-	text-decoration: underline;
+	text-decoration: none;
+	background-color:#007aff;
+	color:white;
 }
 .screenshots-container{
 	margin-top: 30px;
@@ -232,7 +234,7 @@ footer{
 	}
 }
 
-@-ms-viewport{
+/* @-ms-viewport{
 	width: device-width;
 	zoom: 1.0;
 }
@@ -241,3 +243,4 @@ footer{
 	width: device-width;
 	zoom: 1.0;
 }
+*/
