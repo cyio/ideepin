@@ -10,6 +10,7 @@ body{
 	-webkit-text-size-adjust: none;
 	overflow-x: hidden;
 }
+
 a{
 	color: #007aff;
 	text-decoration: none;
@@ -42,11 +43,11 @@ header a{
 }
 #app-icon{
 	display: inline-block;
-	width: 72px;
-	height: 72px;
+	width: 232px;
+	height: 85px;
 	background: #fff url(icons/deepin_logo.png) no-repeat;
 	border-radius: 17px;
-	margin: 0 0 10px;
+	margin: 0 0 3px;
 }
 .container h1{
 	font-size: 46px;
@@ -81,6 +82,7 @@ header a{
 	padding: 0;
 	line-height: 1.5;
 	max-width: 45em;
+	color: #999;
 }
 .available-button{
 	font-size: 15px;
@@ -104,7 +106,6 @@ header a{
 }
 .screenshot{
 	background-color: #fff;
-	border: 1px solid #999;
 	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 	border-radius: 2px;
 	margin: 0 -1px;
