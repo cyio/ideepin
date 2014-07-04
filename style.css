@@ -223,7 +223,7 @@ footer{
 		width: 28%;
 	}
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+/* @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 	only screen and (-o-min-device-pixel-ratio: 3/2),
 	only screen and (min--moz-device-pixel-ratio: 1.5),
 	only screen and (min-device-pixel-ratio: 1.5) {
@@ -234,7 +234,7 @@ footer{
 	}
 }
 
-/* @-ms-viewport{
+@-ms-viewport{
 	width: device-width;
 	zoom: 1.0;
 }
